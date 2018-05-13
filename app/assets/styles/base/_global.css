@@ -1,0 +1,21 @@
+body{
+  font-family: Lato, sans-serif;
+  color: #FFF;
+  background-color: #290000;
+  background-image: url('../../assets/images/background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+main, header{
+  padding: 0 12rem;
+}
+header{
+  background: rgba(0,0,0, .6);
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+main{
+  background: rgba(0,0,0, .3);
+}

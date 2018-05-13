@@ -1,0 +1,37 @@
+.header__nav{
+  padding-top: 2.2rem;
+  display: flex;
+  justify-content:space-between;
+  nav{
+    width: 39.42rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: auto;
+  }
+  .header{
+    &__logo-text{
+      font-size: 1.74rem;
+      margin: 0;
+    }
+    &__logo-subtext{
+      font-family: sans-serif;
+      font-weight: 300;
+      font-size: .87rem;
+      margin: 0;
+      text-align:center;
+    }
+
+    &__link{
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      padding: .73rem 1.3rem;
+      font-size: .872rem;
+      font-weight: 400;
+      &:hover{
+        color: $mainColor;
+      }
+    }
+  }
+}

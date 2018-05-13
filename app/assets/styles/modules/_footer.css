@@ -1,0 +1,64 @@
+footer{
+  background-color: #303030;
+  padding: 0 12rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  color: #979797;
+  .footer{
+    width: 13.86rem;
+    display: flex;
+    flex-direction: column;
+    a{
+      text-decoration: none;
+      color: $mainColor;
+    }
+    &__title{
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      margin: 2.01rem 0;
+    }
+    &__link{
+      font-size: 1rem;
+      margin-bottom: .4rem;
+    }
+    &__username{
+      margin-top: .3rem;
+      font-size: .75rem;
+    }
+    &__paragraph{
+      font-size: .85rem;
+      line-height: 1.3rem;
+    }
+    &__link-quick{
+      border-bottom: 1px solid #404040;
+      padding-bottom: .5rem;
+    }
+    input, textarea{
+      color: #979797;
+      font-size: .7rem;
+      background-color: #222222;
+      padding: .5rem;
+      border-radius: .5rem;
+      border: none;
+      margin: .5rem 0;
+    }
+    button{
+      padding: .5rem;
+      background-color: $mainColor;
+      border: none;
+      border-radius: 8px;
+      width: 4.62rem;
+      text-transform: uppercase;
+      font-size: .78rem;
+      color: #303030;
+      font-weight: 600;
+      &:hover{
+        cursor: pointer;
+      }
+      &:active{
+        color: #333;
+      }
+    }
+  }
+}

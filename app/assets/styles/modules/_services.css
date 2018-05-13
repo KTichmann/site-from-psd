@@ -1,0 +1,40 @@
+.service-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 3.75rem 0;
+  .service{
+    background-color: #fff;
+    box-sizing:border-box;
+    text-align: center;
+    color: #333;
+    width: 13.86rem;
+    height: 18.97rem;
+    padding: 1.36rem 2.14rem;
+    box-shadow: 3px 3px 4px rgba(0,0,0,.5);
+    border-radius: 5px;
+    &:hover{
+      color: #fff;
+      background-color: $mainColor;
+      cursor: pointer;
+      .service__title{
+        color: #fff;
+      }
+    }
+    &__img{
+      width: 7.5rem;
+      height: 7.5rem;
+    }
+    &__title{
+      color: $mainColor;
+      font-size: 1.65rem;
+      text-transform: uppercase;
+      width: 8.43rem;
+      margin: 1.12rem auto;
+      margin-bottom: 1.536;
+    }
+    &__description{
+      font-size: .87rem;
+      margin: 0 auto;
+    }
+  }
+}

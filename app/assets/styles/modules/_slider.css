@@ -1,0 +1,60 @@
+.active{
+  transition: all .6s;
+}
+.card{
+  width: 965px !important;
+}
+.aSliderCardHolder{
+  padding: 50px 0;
+  box-sizing: content-box;
+}
+.aSliderContainer{
+  transition: all .5s;
+}
+
+.sla{
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  padding: 0 1rem;
+  border-radius: 4px;
+  font-family: Lato, sans-serif;
+  text-align: center;
+  h1{
+    font-size: 4rem;
+  }
+  p{
+    font-size: 1.3rem;
+    width: 18.75rem;
+    margin: auto;
+  }
+  img{
+    margin-left: 4rem;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px rgba(0,0,0,.5)
+  }
+}
+.slider-one{
+  position: relative;
+}
+.sliderButton{
+  text-shadow: 3px 3px 1px rgba(0,0,0,.3);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: monospace;
+  font-size: 4rem;
+  &:hover{
+    cursor: pointer;
+    color: $mainColor;
+  }
+  &:active{
+    text-shadow: 0px 0px 0px rgba(0,0,0);
+    font-size: 3.8rem;
+  }
+  &__right{
+    right: 0;
+  }
+}

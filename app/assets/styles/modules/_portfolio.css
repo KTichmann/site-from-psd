@@ -1,0 +1,44 @@
+.portfolio-wrapper{
+    padding-bottom: 3.75rem;
+  .portfolio-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .portfolio{
+    border: .367rem #fff solid;
+    margin-bottom: 1.85rem;
+    position: relative;
+    height: 11.875rem;
+    &:hover{
+      cursor: pointer;
+      .portfolio__description{
+        display: none;
+      }
+    }
+    &__title{
+      font-size: 2.75rem;
+      margin-bottom: 2.6rem;
+      margin-top: 0;
+      text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+      text-align: center;
+      text-transform: uppercase;
+    }
+    &__description{
+      position: absolute;
+      bottom: 0rem;
+      margin: 0;
+      padding: .65rem 0;
+      width: 100%;
+      text-align: center;
+      background-color: #151515;
+      font-size: .733rem;
+      text-transform: uppercase;
+    }
+    &__img{
+      width: 18.125rem;
+      height: 11.875rem;
+    }
+  }
+}
